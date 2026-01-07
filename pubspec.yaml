@@ -1,0 +1,24 @@
+name: cuchd_portal_app
+description: CUCHD Portal App
+version: 1.0.0+6
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.8.0
+  google_mobile_ads: ^5.1.0
+  flutter_launcher_icons: "^0.13.1"
+  http: ^1.4.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png" 
+  min_sdk_android: 21
+  remove_alpha_ios: true
